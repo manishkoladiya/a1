@@ -7,3 +7,6 @@ string petType = Console.ReadLine();
 
 Console.Write("Enter your pet's name: ");
 string petName = Console.ReadLine();
+VirtualPet pet = new VirtualPet(petName);
+
+pet.DisplayWelcomeMessage(GetPetType(petType));
