@@ -10,3 +10,4 @@ string petName = Console.ReadLine();
 VirtualPet pet = new VirtualPet(petName);
 
 pet.DisplayWelcomeMessage(GetPetType(petType));
+Added Display Message
